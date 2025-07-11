@@ -1,0 +1,33 @@
+QMainWindow, *[style_class="game_panel"], *[style_class="board_cell"] {
+    background: rgb(250, 240, 240);
+}
+
+*[style_class="side_panel"] {
+    border-left: 2px solid gray;
+    font-size: 20px;
+}
+
+
+QStatusBar {
+    font-size: 16px;
+}
+
+#restart {
+    border: 1px dash gray;
+    background: rgb(220, 190, 210);
+    min-height: 70;
+    font-size: 16px;
+}
+
+#board {
+    background: rgb(200, 100, 100);    
+}
+
+
+*[style_class~="board_cell"] {
+    border: none;
+    font-size: 50px;
+    font-family: Courier;
+    max-height: 65536;
+    max-width: 65536;
+}
